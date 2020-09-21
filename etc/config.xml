@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <MegaShipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Make\Ship\Model\Carrier\FixShipping</model>
+                <name>First Shipping method</name>
+                <price>10.00</price>
+                <title>First Shipping method</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </MegaShipping>
+        </carriers>
+    </default>
+</config>

@@ -1,0 +1,59 @@
+"Manage Shipping methods","Manage Shipping methods"
+"Add Names","Add Names"
+Back,Back
+"Delete method shipping","Delete method shipping"
+"Are you sure you want to do this?","Are you sure you want to do this?"
+Reset,Reset
+"Save and Continue Edit","Save and Continue Edit"
+"Save new shipping method","Save new shipping method"
+"The method has been deleted.","The method has been deleted."
+"We can't find a methods to delete.","We can't find a methods to delete."
+"This methods no longer exists.","This methods no longer exists."
+"Edit Shipping methods","Edit Shipping methods"
+"Add Shipping methods","Add Shipping methods"
+"Shipping methods","Shipping methods"
+"Add shipping method","Add shipping method"
+"Manage All Shipping methods","Manage All Shipping methods"
+"All shipping methods","All shipping methods"
+"Please correct the data sent.","Please correct the data sent."
+"Something went wrong while saving the new method.","Something went wrong while saving the new method."
+"A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted."
+"This method no longer exists.","This method no longer exists."
+"You saved the method.","You saved the method."
+"Something went wrong while saving the method.","Something went wrong while saving the method."
+Enabled,Enabled
+Disabled,Disabled
+"Could not save the method: %1","Could not save the method: %1"
+"Method of shipping with id ""%1"" does not exist.","Method of shipping with id ""%1"" does not exist."
+"Could not delete the method: %1","Could not delete the method: %1"
+Edit,Edit
+Delete,Delete
+"Delete %1","Delete %1"
+"Are you sure you want to delete a %1 record?","Are you sure you want to delete a %1 record?"
+"Save method","Save method"
+"Delete method","Delete method"
+Make_Ship,Make_Ship
+"First Ship","First Ship"
+"Method Name","Method Name"
+Price,Price
+"Calculate Handling Fee","Calculate Handling Fee"
+"Handling Fee","Handling Fee"
+"Sort Order","Sort Order"
+Title,Title
+"Ship to Applicable Countries","Ship to Applicable Countries"
+"Ship to Specific Countries","Ship to Specific Countries"
+"Show Method if Not Applicable","Show Method if Not Applicable"
+"Displayed Error Message","Displayed Error Message"
+"Methods Information","Methods Information"
+Name,Name
+"Min Subtotal","Min Subtotal"
+"Max Subtotal","Max Subtotal"
+"Min Weight","Min Weight"
+"Max Weight","Max Weight"
+"Zip Code","Zip Code"
+Percent,Percent
+Content,Content
+"Add new shipping method","Add new shipping method"
+"Are you sure you want to delete selected items?","Are you sure you want to delete selected items?"
+"Delete items","Delete items"
+ID,ID

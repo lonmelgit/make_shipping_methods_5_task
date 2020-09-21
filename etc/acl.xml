@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Make_Ship::third" title="Third" sortOrder="51">
+                    <resource id="Make_Ship::ship_ways" title="All methods" sortOrder="10">
+						<resource id="Make_Ship::save" title="Save method" translate="title" sortOrder="10" />
+						<resource id="Make_Ship::ship_delete" title="Delete method" translate="title" sortOrder="20" />
+					</resource>
+                </resource>
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="Make_Ship::ship_config" title="Make_Ship" translate="title"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

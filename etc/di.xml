@@ -1,0 +1,39 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Make\Ship\Api\Data\WaysInterface" type="Make\Ship\Model\Ways" />
+    <preference for="Make\Ship\Api\WaysRepositoryInterface" type="Make\Ship\Model\WaysRepository" />
+
+    <virtualType name="WaysGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
+        <arguments>
+            <argument name="collection" xsi:type="object" shared="false">Make\Ship\Model\ResourceModel\Ways\Collection</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="ship_ways_listing_data_source" xsi:type="string">Make\Ship\Model\ResourceModel\Ways\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Make\Ship\Model\ResourceModel\Ways\Grid\Collection">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">make_ship</argument>
+            <argument name="eventPrefix" xsi:type="string">make_ship_grid_collection</argument>
+            <argument name="eventObject" xsi:type="string">make_ship_collection</argument>
+            <argument name="resourceModel" xsi:type="string">Make\Ship\Model\ResourceModel\Ways</argument>
+        </arguments>
+    </type>
+    <type name="Magento\Framework\Model\Entity\RepositoryFactory">
+        <arguments>
+            <argument name="entities" xsi:type="array">
+                <item name="Make\Ship\Api\Data\WaysInterface" xsi:type="string">Make\Ship\Api\WaysRepositoryInterface</item>
+            </argument>
+        </arguments>
+    </type>
+
+        <type name="Make\Ship\Controller\Index\Example">
+            <plugin name="Make_Ship_Plugin" type="Make\Ship\Plugin\ExamplePlugin" sortOrder="10" disabled="false"  />
+        </type>
+
+
+</config>
