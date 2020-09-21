@@ -4,7 +4,7 @@
     "type": "library",
     "license": "\"OSL-3.0\",",
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
     "autoload": {
         "files": [
             "registration.php"
